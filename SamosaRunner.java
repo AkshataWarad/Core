@@ -2,6 +2,17 @@ class SamosaRunner{
     
 	public static void main(String[] args)
 	{
+	Samosa sam=new Samosa()
+	float cost=58.8;
+	boolean taste=true;
+	
+	System.out.println(sam1.cost);
+	
+	System.out.println(sam1.cost);
+	
+	System.out.println(sam1.cost);
+	
+	System.out.println(sam1.cost);
 	
 
 	

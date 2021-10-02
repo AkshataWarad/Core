@@ -1,0 +1,5 @@
+enum HelmetType{
+   
+     FULLFACE,MODULAR,HALFFACE,OPENFACE;
+
+}

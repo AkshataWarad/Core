@@ -11,7 +11,7 @@ Samosa(float cost,boolean taste)
 	this.taste=taste;
 }	
 
-Samosa(float cost,SamosaSize size,String[] ingredients)
+Samosa(float cost,		SamosaSize size,String[] ingredients)
 {
 	System.out.println("Created using size and ingredients");
 	this.size=size;
