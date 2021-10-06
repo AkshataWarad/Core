@@ -2,7 +2,7 @@ class IceCreamStarter{
 	
 	public static void main(String args[]){
 		
-		IceCream cream=new IceCream(-20,"Chocolate",Color.BROWN,"aaa");
+		IceCream cream=new IceCream(-20,"Chocolate",Color.BROWN);
 		cream.type="cone";
 		System.out.println(cream.temp);
 		System.out.println(cream.flavour);

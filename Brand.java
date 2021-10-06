@@ -10,6 +10,6 @@ class Brand{
 		this.name=name;
 		this.ownername=ownername;
 	}
-	Brand()
-	{}
+	
+	
 	}
