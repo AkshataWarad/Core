@@ -2,21 +2,13 @@ class ProductStarter{
 	
 	public static void main(String args[]){
 		
-		Product pro=new Product();
-		pro.name="VEGA";
-		pro.type="Appliances";
-		pro.price=98.2f;
-		pro.quantity="100gms";
-		pro.DisplayDetails();
+		Product product=new Product("Hair Dryer","EC",50.0f,2,"Philips");
+		product.displayDetails();
 		
+		Product product1=new Product("Straightner",150.0f,5);
+		product1.displayDetails();
+		product.printTotalCost();
+		product1.printTotalCost();
 		
-		pro.vendor=new Vendor();
-		Vendor ven=pro.vendor;
-		System.out.println(pro.vendor);
-		System.out.println();
-		ven.name="Akshu";
-		ven.quality=true;
-		ven.location="BLR";
-		ven.DisplayDetails();
 	}
 }
