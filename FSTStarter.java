@@ -9,8 +9,8 @@ class FSTStarter{
 		 System.out.println(forest.reserved);
 		 System.out.println(forest.state);
 		 
-		 forest.state=new State("Karnataka","Basavraj Bommai");
-		 State state=forest.state;
+		 forest.state=new State("Karnataka","Basavraj Bommai");//State state=new State();
+		 State state=forest.state;//
 		 System.out.println(forest.state);
 
 		 System.out.println();
