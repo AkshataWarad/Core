@@ -1,0 +1,4 @@
+enum ClothType{
+	
+	NYLON,POLYESTER,VELVET
+}
